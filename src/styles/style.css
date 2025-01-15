@@ -46,6 +46,7 @@ h1 {
 
 h2 {
   font-size: 60px;
+  color: var(--main);
 }
 
 h3 {
@@ -71,6 +72,14 @@ section, footer {
   color: var(--main);
 }
 
+.transparent-dark-text {
+  color: var(--transparent-dark);
+}
+
+.transparent-white-text {
+  color: var(--transparent-white);
+}
+
 .white-text {
   color: var(--white);
 }
@@ -88,14 +97,16 @@ section, footer {
   width: 50%;
 }
 
-header, 
-#ikea-effect {
+.background-before{
   position: relative;
   background-color: var(--light);
 }
 
-header::before,
-#ikea-effect::before {
+.dark-theme {
+  background-color: var(--brown);
+}
+
+.background-before::before {
   content: '';
   background-image: url("../images/background.png");
   background-repeat: no-repeat;
@@ -129,6 +140,11 @@ header::before,
   padding: 5px 0;
 }
 
+.dark-theme .how-section-title {
+  color: var(--brown);
+  background-color: var(--white);
+}
+
 .header-section-block {
   font-family: "Neucha", sans-serif;
 }
@@ -149,7 +165,6 @@ header::before,
   margin: 0;
   padding: 0;
   font-size: 24px;
-  color: var(--transparent-dark);
   line-height: 28.8px;
 }
 

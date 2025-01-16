@@ -295,6 +295,10 @@ header .container {
   color: var(--main-dark);
 }
 
+#preview-image h1 {
+  font-size: 60px;
+}
+
 /** IKEA EFFECT STYLE **/
 .footer-flex {
   display: flex;

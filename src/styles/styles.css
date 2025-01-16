@@ -243,13 +243,13 @@ header .container {
 
 /** NAVIGATOR STYLE **/
 
-#navigator {
+#navigation {
   padding-top: 200px;
   background-color: var(--main-dark);
   z-index: 1;
 }
 
-#navigator .container {
+#navigation .container {
   display: flex;
   flex-wrap: wrap;
   justify-content: space-between;

@@ -25,8 +25,8 @@
 }
 
 body {
-  font-family: "OpenSans", sans-serif;
-  font-size:  16px;
+  font-family: OpenSans, sans-serif;
+  font-size: 16px;
   line-height: 1.6em;
   color: var(--dark);
   overflow-x: hidden;
@@ -34,8 +34,10 @@ body {
   padding: 0;
 }
 
-h1, h2, h3 {
-  font-family: "Neucha", sans-serif;
+h1,
+h2,
+h3 {
+  font-family: Neucha, sans-serif;
   line-height: 1.2em;
   font-weight: 400;
   margin: 0;
@@ -59,7 +61,8 @@ a {
   text-decoration: none;
 }
 
-section, footer {
+section,
+footer {
   padding: 100px 0;
   margin: 0 auto;
 }
@@ -106,12 +109,13 @@ header .container {
   padding: 0;
   margin: 0;
 }
+
 .mp0 {
   margin: 0;
   padding: 0;
 }
 
-.background-before{
+.background-before {
   position: relative;
   background-color: var(--light);
 }
@@ -121,14 +125,14 @@ header .container {
 }
 
 .background-before::before {
-  content: '';
+  content: "";
   background-image: url("images/background.PNG");
   background-repeat: no-repeat;
   background-size: cover;
   position: absolute;
-  top: 0px;
-  left: 0px;
-  opacity: 10%;
+  top: 0;
+  left: 0;
+  opacity: 0.1;
   width: 100%;
   height: 100%;
   z-index: 1;
@@ -144,7 +148,7 @@ header .container {
 .how-section-title {
   margin-top: 100px;
   margin-bottom: 20px;
-  font-family: "OpenSans", sans-serif;
+  font-family: OpenSans, sans-serif;
   font-weight: 700;
   font-size: 14px;
   line-height: 16px;
@@ -160,7 +164,7 @@ header .container {
 }
 
 .header-section-block {
-  font-family: "Neucha", sans-serif;
+  font-family: Neucha, sans-serif;
 }
 
 .header-section-block h1 {
@@ -219,7 +223,7 @@ header .container {
   color: var(--white);
   background-color: var(--main);
   display: inline-block;
-  opacity: 100%;
+  opacity: 1;
   position: relative;
 }
 
@@ -270,6 +274,7 @@ header .container {
 #preview-image h1 {
   font-size: 60px;
 }
+
 /** NAVIGATOR STYLE **/
 
 #navigation {

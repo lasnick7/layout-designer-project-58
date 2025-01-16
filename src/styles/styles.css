@@ -30,6 +30,8 @@ body {
   line-height: 1.6em;
   color: var(--dark);
   overflow-x: hidden;
+  margin: 0;
+  padding: 0;
 }
 
 h1, h2, h3 {
@@ -205,7 +207,7 @@ header .container {
 
 #header-button {
   border: none;
-  margin-top: 40px;
+  margin-top: 20px;
   padding: 12px 24px;
   font-weight: 700;
   color: var(--white);

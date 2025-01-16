@@ -65,7 +65,10 @@ section, footer {
 .container {
   max-width: 1110px;
   margin: 0 auto;
-  border: solid, 0.1px;
+}
+
+header .container {
+  padding-bottom: 100px;
 }
 
 .orange-text {
@@ -88,7 +91,6 @@ section, footer {
   display: flex;
   gap: 30px;
   align-items: flex-start;
-  border: solid, 0.1px;
   margin: 0 auto;
   color: var(--dark);
 }
@@ -179,7 +181,6 @@ section, footer {
 
 .image-position {
   position: relative;
-  border: solid;
   height: 580px;
   display: block;
   margin: 0 auto;
@@ -217,10 +218,6 @@ section, footer {
 
 #preview-image {
   text-align: center;
-}
-
-#preview-image .container {
-  border: solid;
 }
 
 #preview-image h1 {
@@ -308,3 +305,76 @@ section, footer {
 }
 
 /** IKEA EFFECT STYLE **/
+.footer-flex {
+  display: flex;
+  background-color: var(--main-dark);
+  color: var(--white);
+  position: relative;
+  align-items: center
+}
+
+.footer-flex > div {
+  width: 50%;
+  margin: 40px 55px;
+}
+
+.footer-flex p {
+  font-size: 12px;
+  padding: 0;
+  margin: 0;
+}
+
+.footer-flex p > a {
+  color: var(--white);
+  text-decoration: underline;
+}
+
+#contact-info {
+  text-align: center;
+  margin-top: 60px;
+}
+
+#contact-info a {
+  color: #1085C5;
+  text-decoration: underline;
+}
+
+.footer-form input {
+  height: 50px;
+  padding: 15px;
+  width: 100%;
+  box-sizing: border-box;
+  border: none;
+  margin-top: 6px;
+}
+
+.footer-form label {
+  font-size: 18px;
+  line-height: 28.8px;
+}
+
+#footer-btn {
+  height: 50px;
+  width: 70px;
+  position: absolute;
+  top: 75px;
+  right: 55px;
+  border: none;
+  outline: none;
+  background-color: var(--main);
+  z-index: 0;
+}
+
+#footer-btn::before {
+  content: '';
+  background-image: url("../images/send.svg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  margin: auto;
+  position: absolute;
+  top: 13px;
+  left: 17px;
+  width: 45%;
+  height: 45%;
+  z-index: 1;
+}

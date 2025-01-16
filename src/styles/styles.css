@@ -25,8 +25,8 @@
 }
 
 body {
-  font-family: OpenSans, sans-serif;
-  font-size: 16px;
+  font-family: "OpenSans", sans-serif;
+  font-size:  16px;
   line-height: 1.6em;
   color: var(--dark);
   overflow-x: hidden;
@@ -34,10 +34,8 @@ body {
   padding: 0;
 }
 
-h1,
-h2,
-h3 {
-  font-family: Neucha, sans-serif;
+h1, h2, h3 {
+  font-family: "Neucha", sans-serif;
   line-height: 1.2em;
   font-weight: 400;
   margin: 0;
@@ -61,8 +59,7 @@ a {
   text-decoration: none;
 }
 
-section,
-footer {
+section, footer {
   padding: 100px 0;
   margin: 0 auto;
 }
@@ -109,32 +106,29 @@ header .container {
   padding: 0;
   margin: 0;
 }
-
 .mp0 {
   margin: 0;
   padding: 0;
 }
 
-.background-before {
+.background-before{
   position: relative;
   background-color: var(--light);
 }
 
 .dark-theme {
-  background-color: var(--brown); 
+  background-color: var(--brown);
 }
 
 .background-before::before {
-  content: "";
+  content: '';
   background-image: url("images/background.PNG");
   background-repeat: no-repeat;
   background-size: cover;
   position: absolute;
-
-  /* top: 0px;
-  left: 0px; */
-
-  opacity: 0.1;
+  top: 0px;
+  left: 0px;
+  opacity: 10%;
   width: 100%;
   height: 100%;
   z-index: 1;
@@ -150,7 +144,7 @@ header .container {
 .how-section-title {
   margin-top: 100px;
   margin-bottom: 20px;
-  font-family: OpenSans, sans-serif;
+  font-family: "OpenSans", sans-serif;
   font-weight: 700;
   font-size: 14px;
   line-height: 16px;
@@ -166,7 +160,15 @@ header .container {
 }
 
 .header-section-block {
-  font-family: Neucha, sans-serif;
+  font-family: "Neucha", sans-serif;
+}
+
+.header-section-block h1 {
+  font-size: 60px;
+}
+
+.header-section-block h1 {
+  font-size: 60px;
 }
 
 .header-section-block h1 {
@@ -217,7 +219,7 @@ header .container {
   color: var(--white);
   background-color: var(--main);
   display: inline-block;
-  opacity: 1;
+  opacity: 100%;
   position: relative;
 }
 
@@ -268,7 +270,6 @@ header .container {
 #preview-image h1 {
   font-size: 60px;
 }
-
 /** NAVIGATOR STYLE **/
 
 #navigation {
@@ -302,13 +303,6 @@ header .container {
   color: var(--white);
 }
 
-.nav-flex-item h2 {
-  font-size: 64px;
-  padding-bottom: 40px;
-  line-height: 1em;
-  color: var(--main-dark);
-}
-
 .nav-flex-item:hover h2 {
   color: var(--white);
 }
@@ -330,14 +324,21 @@ header .container {
   font-size: 52px;
 }
 
-/** IKEA EFFECT STYLE **/
+.nav-flex-item h2 {
+  font-size: 64px;
+  padding-bottom: 40px;
+  line-height: 1em;
+  color: var(--main-dark);
+}
 
+
+/** IKEA EFFECT STYLE **/
 .footer-flex {
   display: flex;
   background-color: var(--main-dark);
   color: var(--white);
   position: relative;
-  align-items: center;
+  align-items: center
 }
 
 .footer-flex > div {
@@ -362,7 +363,7 @@ header .container {
 }
 
 #contact-info a {
-  color: #1085c5;
+  color: #1085C5;
   text-decoration: underline;
 }
 
@@ -393,7 +394,7 @@ header .container {
 }
 
 #footer-btn::before {
-  content: "";
+  content: '';
   background-image: url("images/send.svg");
   background-repeat: no-repeat;
   background-size: cover;

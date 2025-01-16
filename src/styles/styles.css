@@ -104,6 +104,12 @@ header .container {
 .flex-block {
   width: 50%;
   padding: 0;
+  margin: 0;
+}
+
+.flex-block p {
+  margin: 0;
+  padding: 0;
 }
 
 .background-before{

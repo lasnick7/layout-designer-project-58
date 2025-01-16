@@ -331,14 +331,14 @@ header .container {
   color: var(--main-dark);
 }
 
-
 /** IKEA EFFECT STYLE **/
+
 .footer-flex {
   display: flex;
   background-color: var(--main-dark);
   color: var(--white);
   position: relative;
-  align-items: center
+  align-items: center;
 }
 
 .footer-flex > div {
@@ -363,7 +363,7 @@ header .container {
 }
 
 #contact-info a {
-  color: #1085C5;
+  color: #1085c5;
   text-decoration: underline;
 }
 
@@ -394,7 +394,7 @@ header .container {
 }
 
 #footer-btn::before {
-  content: '';
+  content: "";
   background-image: url("images/send.svg");
   background-repeat: no-repeat;
   background-size: cover;

@@ -66,7 +66,7 @@ section, footer {
 
 .container {
   max-width: 1110px;
-  margin: 0 auto;
+  margin: 0;
   padding: 0;
 }
 
@@ -99,6 +99,7 @@ header .container {
   margin: 0 auto;
   padding: 0;
   color: var(--dark);
+  padding: 0;
 }
 
 .flex-block {

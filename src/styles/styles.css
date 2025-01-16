@@ -134,6 +134,7 @@ header .container {
 }
 
 .how-section-title {
+  margin-top: 100px;
   margin-bottom: 20px;
   font-family: "OpenSans", sans-serif;
   font-weight: 700;

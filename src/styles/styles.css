@@ -221,6 +221,8 @@ header .container {
 
 #preview-image {
   text-align: center;
+  margin: 0;
+  height: 547px;
 }
 
 #preview-image h1 {
@@ -245,8 +247,9 @@ header .container {
 
 #navigation {
   padding-top: 200px;
-  background-color: var(--main-dark);
+  background-color: #42413c;
   z-index: 1;
+  margin: 0;
 }
 
 #navigation .container {

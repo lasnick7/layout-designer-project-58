@@ -61,12 +61,12 @@ a {
 
 section, footer {
   padding: 100px 0;
-  margin: 0;
+  margin: 0 auto;
 }
 
 .container {
   max-width: 1110px;
-  margin: 0;
+  margin: 0 auto;
   padding: 0;
 }
 
@@ -99,13 +99,11 @@ header .container {
   margin: 0 auto;
   padding: 0;
   color: var(--dark);
-  padding: 0;
 }
 
 .flex-block {
   width: 50%;
   padding: 0;
-  margin: 0;
 }
 
 .background-before{

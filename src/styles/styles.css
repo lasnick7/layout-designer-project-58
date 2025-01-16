@@ -110,7 +110,7 @@ header .container {
 
 .background-before::before {
   content: '';
-  background-image: url("../images/background.PNG");
+  background-image: url("./styles/images/background.PNG");
   background-repeat: no-repeat;
   background-size: cover;
   position: absolute;
@@ -367,7 +367,7 @@ header .container {
 
 #footer-btn::before {
   content: '';
-  background-image: url("../images/send.svg");
+  background-image: url("./styles/images/send.svg");
   background-repeat: no-repeat;
   background-size: cover;
   margin: auto;

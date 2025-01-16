@@ -67,6 +67,7 @@ section, footer {
 .container {
   max-width: 1110px;
   margin: 0 auto;
+  padding: 0;
 }
 
 header .container {
@@ -219,35 +220,51 @@ header .container {
 
 /** VIDEO SECTION STYLE **/
 
-#preview-image {
-  text-align: center;
-  margin: 0;
-  height: 654px;
+.video-section {
+  padding-top: 100px;
+  padding-bottom: 100px;
+  width: 100%;
+  background-color: var(--white);
+  background-image: none;
+  position: relative;
 }
 
-#preview-image h1 {
-  margin-bottom: 30px;
-}
-
-#preview-image p {
-  margin-bottom: 30px;
-}
-
-#preview-image-link-a {
+.video {
+  position: relative;
+  filter: drop-shadow(0 16px 32px rgba(0 0 0 / 15%));
   width: 919px;
   height: 517px;
-  filter: drop-shadow(0 16px 32px rgba(0 0 0 / 15%));
-  position: relative;
-  margin-top: -200px;
-  top: 200px;
+  margin-bottom: -200px;
   z-index: 2;
+  border: none;
 }
 
-#preview-image-link {
+.video-section-header {
+  margin-bottom: 30px;
+  margin-top: 0;
+  text-align: center;
+}
+
+.content-video-section {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.video-section-paragraph {
+  margin-bottom: 30px;
+  text-align: center;
+}
+
+.image-video-preview {
   width: 100%;
   height: 100%;
 }
 
+#preview-image h1 {
+  font-size: 60px;
+}
 /** NAVIGATOR STYLE **/
 
 #navigation {
@@ -305,9 +322,6 @@ header .container {
   color: var(--main-dark);
 }
 
-#preview-image h1 {
-  font-size: 60px;
-}
 
 /** IKEA EFFECT STYLE **/
 .footer-flex {

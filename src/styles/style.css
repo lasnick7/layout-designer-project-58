@@ -110,7 +110,7 @@ header .container {
 
 .background-before::before {
   content: '';
-  background-image: url("../images/background.png");
+  background-image: url("../images/background.PNG");
   background-repeat: no-repeat;
   background-size: cover;
   position: absolute;

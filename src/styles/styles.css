@@ -15,18 +15,18 @@
 /** ALL STYLES **/
 
 @font-face {
-  font-family: "OpenSans";
+  font-family: OpenSans;
   src: url("../fonts/OpenSans.ttf");
 }
 
 @font-face {
-  font-family: "Neucha";
+  font-family: Neucha;
   src: url("../fonts/Neucha.ttf");
 }
 
 body {
-  font-family: "OpenSans", sans-serif;
-  font-size:  16px;
+  font-family: OpenSans, sans-serif;
+  font-size:  16px; 
   line-height: 1.6em;
   color: var(--dark);
   overflow-x: hidden;
@@ -34,8 +34,10 @@ body {
   padding: 0;
 }
 
-h1, h2, h3 {
-  font-family: "Neucha", sans-serif;
+h1, 
+h2, 
+h3 {
+  font-family: Neucha, sans-serif;
   line-height: 1.2em;
   font-weight: 400;
   margin: 0;
@@ -59,7 +61,8 @@ a {
   text-decoration: none;
 }
 
-section, footer {
+section, 
+footer {
   padding: 100px 0;
   margin: 0 auto;
 }
@@ -111,7 +114,7 @@ header .container {
   padding: 0;
 }
 
-.background-before{
+.background-before {
   position: relative;
   background-color: var(--light);
 }
@@ -122,7 +125,7 @@ header .container {
 
 .background-before::before {
   content: '';
-  background-image: url("images/background.PNG");
+  background-image: url('images/background.PNG');
   background-repeat: no-repeat;
   background-size: cover;
   position: absolute;
